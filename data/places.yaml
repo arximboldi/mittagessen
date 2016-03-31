@@ -187,3 +187,9 @@
   options:
     hurry: 1
     sunny: 1
+
+- name: Standard Pizza
+  where: https://goo.gl/maps/1vJXCpEZC9z
+  bg: Black
+  fg: Sienna
+
