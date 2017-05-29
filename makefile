@@ -54,5 +54,6 @@ dev:
 # ==========
 #
 
-upload:
-	ncftpput -z -m -R -f host.ncftpput /mittagessen resources/* resources/views/index.html
+DEST = ~/public/mittagessen/
+copy:
+	rsync -av resources/* resources/views/index.html $(DEST)
